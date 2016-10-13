@@ -4,3 +4,21 @@
 body {
   background-color: #D4E2F9;
 }
+.frontPage{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background-image: image("frontpage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Full width navbar that stays at the top of the page */
+.navBar{
+  position: fixed;
+  width: 100%;
+  height: 3%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
