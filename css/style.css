@@ -1,10 +1,10 @@
 /* This is style!!! */
 
-
 body {
   background-color: #D4E2F9;
   margin: auto;
 }
+
 .frontPage{
   position: absolute;
   height: 100%;
@@ -12,8 +12,8 @@ body {
   z-index: 0;
   background-image: url("frontpage.jpg");
   background-size: cover;
-
 }
+
 /*Full width navbar that stays at the top of the page */
 .navBar{
   position: fixed;
@@ -23,9 +23,39 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   top: 0;
 }
+
+.centerText{
+  text-align: center;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  color: #fcfae5;
+  text-shadow: 1px -1px 0 #000000 , 1px 1px 0 #000000, -1px -1px 0 #000000, -1px 1px 0 #000000, 0 0 3px #000000;
+  font-family: sans-serif;
+}
+
+#FPheading{
+  font-size: 4em;
+  font-weight: 800;
+  margin-bottom: 0;
+
+}
+
+#FPtext{
+  
+}
+
 .wall{
   background-color: #D4E2F9;
   width: 100%;
   position: absolute;
   top: 100%;
+}
+
+.textBox0{
+
+}
+
+.textBox1{
+
 }
