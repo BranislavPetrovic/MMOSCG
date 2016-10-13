@@ -58,34 +58,45 @@ body {
   display: block;
   background-color: white;
   text-align: center;
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
-  width: 95%;
+  width: 100%;
   position: relative;
-  box-shadow: 0px 0px 5px #000000, 0px 0px 15px #ff1000;
-  border-radius: 3px;
+
 }
 
 .textBox1{
   display: block;
-  background-color: white;
+  background-color: grey;
   text-align: center;
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
-  width: 95%;
+  width: 100%;
   position: relative;
-  box-shadow: 3px 3px 20px #000000 ;
-  border-radius: 3px;
+
   }
+
+  .textBox2{
+    display: block;
+    background-color: blue;
+    text-align: center;
+    margin: 0% auto;
+    padding: 1%;
+    width: 100%;
+    position: relative;
+
+    }
+  .wall p{
+    font-size: 1em;
+  }
+
   .footer{
   display: block;
   background-color: white;
   text-align: center;
-  margin: 1% auto;
+  margin: 0% auto;
   padding: 1%;
-  width: 95%;
+  width: 100%;
   position: relative;
-  box-shadow: 3px 3px 20px #000000;
-  border-radius: 3px;
   font-size: 75%;
   }
