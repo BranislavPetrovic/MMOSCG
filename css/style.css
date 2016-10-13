@@ -24,8 +24,25 @@ body {
   top: 0;
 }
 
-.centertext{
+.centerText{
+  text-align: center;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  color: #fcfae5;
+  text-shadow: 1px -1px 0 #000000 , 1px 1px 0 #000000, -1px -1px 0 #000000, -1px 1px 0 #000000, 0 0 3px #000000;
+  font-family: sans-serif;
+}
 
+#FPheading{
+  font-size: 4em;
+  font-weight: 800;
+  margin-bottom: 0;
+
+}
+
+#FPtext{
+  
 }
 
 .wall{
