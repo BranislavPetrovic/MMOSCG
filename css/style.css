@@ -25,22 +25,16 @@ body {
     top: 100%;
 }
 
-#content {
-    width: 70%;
+.content {
+    width: 50%;
     margin: 0 auto;
     background-color: white;
     margin-top: 30px;
 }
 
-#content h1 {
+.content h1 {
     padding-top: 20px;
     padding: 5px 5% 10px;
-}
-
-#content p {
-    padding: 10px 5% 10px;
-    line-height: 125%;
-    padding-bottom: 30px;
 }
 
 #logo {
@@ -66,6 +60,12 @@ li {
     padding: 15px;
 }
 
+.text {
+    padding: 5px 10% 10px;
+    line-height: 125%;
+    padding-bottom: 30px;
+}
+
 #navBar a {
     font-size: 1.6em;
     font-weight: bold;
@@ -78,4 +78,41 @@ li {
 
 #navBar a:hover {
     border-bottom: 1px solid #eee;
+}
+
+#abc img {
+    vertical-align: middle;
+    width: 200px;
+    width: 200px;
+}
+
+#abc span {
+    vertical-align: middle;
+}
+
+#box {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border: 15px solid red;
+    background-color: red;
+}
+
+#box span {
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    display: inline;
+}
+
+.test {
+    font-size: 200%;
+    margin: 0px 0px 0px 10px;
+}
+
+#boxtext {
+    margin: 0px 0px 0px 5%;
+    padding-top: 5%;
 }
