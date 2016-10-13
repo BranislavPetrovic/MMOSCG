@@ -9,7 +9,6 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 0;
     background-image: url("frontpage.jpg");
     background-size: cover;
 }
@@ -17,14 +16,7 @@ body {
 
 /*Full width navbar that stays at the top of the page */
 
-.navBar {
-    position: fixed;
-    width: 100%;
-    height: 6%;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-}
+.navBar {}
 
 .wall {
     background-color: #D4E2F9;
@@ -49,4 +41,41 @@ body {
     padding: 10px 5% 10px;
     line-height: 125%;
     padding-bottom: 30px;
+}
+
+#logo {
+    float: left;
+}
+
+#navBar {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    box-shadow: 0px 1px 10px #5E5E5E;
+    position: fixed;
+    top: 0px;
+    height: 8%;
+    z-index: 2;
+}
+
+#navigation {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+#navBar a {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: century gothic;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+#navBar a:hover {
+    border-bottom: 1px solid #eee;
 }
