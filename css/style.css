@@ -22,8 +22,57 @@ body {
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.7);
   top: 0;
+  color: white;
+
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+#home{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 2%;
+}
+
+#ezlearn{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 2%;
+}
+
+#feat{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 2%;
+}
+
+#easyABC{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 2%;
+}
+
+#cont{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 0 2%;
+}
+
+#home:hover, #feat:hover, #cont:hover, #ezlearn:hover, #easyABC:hover {
+  background-color: grey;
+  color: #ffd700;
+
+  }
 .centerText{
   text-align: center;
   position: relative;
@@ -59,7 +108,7 @@ body {
   background-color: white;
   text-align: center;
   margin: 0% auto;
-  padding: 1%;
+  padding: 1% 0;
   width: 100%;
   position: relative;
 
@@ -70,33 +119,33 @@ body {
   background-color: grey;
   text-align: center;
   margin: 0% auto;
-  padding: 1%;
+  padding: 1% 0;
   width: 100%;
   position: relative;
 
-  }
+}
 
-  .textBox2{
-    display: block;
-    background-color: blue;
-    text-align: center;
-    margin: 0% auto;
-    padding: 1%;
-    width: 100%;
-    position: relative;
+.textBox2{
+  display: block;
+  background-color: blue;
+  text-align: center;
+  margin: 0% auto;
+  padding: 1% 0;
+  width: 100%;
+  position: relative;
+}
 
-    }
-  .wall p{
+.wall p{
     font-size: 1em;
-  }
+}
 
-  .footer{
+.footer{
   display: block;
   background-color: white;
   text-align: center;
   margin: 0% auto;
-  padding: 1%;
+  padding: 1% 0;
   width: 100%;
   position: relative;
   font-size: 75%;
-  }
+}
