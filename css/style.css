@@ -32,6 +32,8 @@ a {
     text-transform: uppercase;
     font-size: 150%;
     margin: auto;
+    height: inherit;
+    text-shadow: 1px -1px 0 #000000 , 1px 1px 0 #000000, -1px -1px 0 #000000, -1px 1px 0 #000000, 0 0 3px #000000;
 }
 
 #home{
@@ -69,14 +71,11 @@ a {
   padding: 0 2%;
 }
 
-/*#home:hover, #sChamp:hover, #cont:hover, #ezlearn:hover, #easyABC:hover {
+#home:hover, #sChamp:hover, #cont:hover, #ezlearn:hover, #easyABC:hover {
   background-color: #ffffff;
   color: #000000;
-
-  }*/
-  a:hover{
-    background-color: #ffffff;
-    color: #000000;
+  border-bottom: 5px solid #000000;
+  border-radius: 50%;
   }
 
 .centerText{
@@ -143,6 +142,7 @@ a {
 
 .wall p{
     font-size: 1em;
+    padding: 0 15%;
 }
 
 .footer{
