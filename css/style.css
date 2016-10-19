@@ -1,28 +1,130 @@
-/* This is style!!! */
-
 body {
-  background-color: #D4E2F9;
-  margin: auto;
+    background-color: #D4E2F9;
+    margin: auto;
 }
 
-.frontPage{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  background-image: url("frontpage.jpg");
-  background-size: cover;
+.frontPage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("frontpage.jpg");
+    background-size: cover;
 }
 
-/*Full width navbar that stays at the top of the page */
-.navBar{
-  position: fixed;
-  width: 100%;
-  height: 6%;
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
+
+.navBar {}
+
+.wall {
+    background-color: #D4E2F9;
+    width: 100%;
+    position: absolute;
+    top: 100%;
 }
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.content h1 {
+    padding-top: 20px;
+    padding: 5px 5% 10px;
+}
+
+#logo {
+    float: left;
+}
+
+#navBar {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    box-shadow: 0px 1px 10px #5E5E5E;
+    position: fixed;
+    top: 0px;
+    height: 8%;
+    z-index: 2;
+}
+
+#navigation {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+#navBar a {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: century gothic;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+#navBar a:hover {
+    border-bottom: 1px solid #eee;
+}
+
+#abc img {
+    vertical-align: middle;
+    width: 200px;
+    width: 200px;
+}
+
+#abc span {
+    vertical-align: middle;
+}
+
+#box {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border: 15px solid #d32525;
+    background-color: #d32525;
+}
+
+#box span {
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    display: inline;
+}
+
+.test {
+    font-family: "Bebas Neue", Arial;
+    font-size: 250%;
+    margin: 0px 0px 0px 10px;
+    color: #d32525;
+}
+
+#boxtext {
+    overflow: hidden;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+#text {
+    overflow: hidden;
+}
+
+br {
+    display: block;
+    margin: 120px 0;
+    line-height: 22px;
+}
+
+.text {
+  margin-left: 5%;
+  padding-right: 5%;
+}
+
 
 .centerText{
   text-align: center;
@@ -42,20 +144,5 @@ body {
 }
 
 #FPtext{
-  
-}
-
-.wall{
-  background-color: #D4E2F9;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-}
-
-.textBox0{
-
-}
-
-.textBox1{
 
 }
